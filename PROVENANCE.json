@@ -1,0 +1,137 @@
+[
+  {
+    "repository": "https://github.com/MAlazmii/108-java.git",
+    "commit": "c2df71f71e1893993fe628fff3faf787338af323",
+    "exercise": "cabinet-and-graph",
+    "files": [
+      {
+        "source": "COMP108A2Cab.java",
+        "destination": "exercises/cabinet-and-graph/COMP108A2Cab.java",
+        "sha256": "003933927ffbd9c0bed5bed71f2f7a8be375c6ddf81cdb989f04652f7f9c0e73"
+      },
+      {
+        "source": "COMP108A2Graph.java",
+        "destination": "exercises/cabinet-and-graph/COMP108A2Graph.java",
+        "sha256": "d84bd168d83953d3a5eb4539f8a1b1278ace0e2f72bdf613b5c7d1045303b28b"
+      },
+      {
+        "source": "README.md",
+        "destination": "docs/original-readmes/cabinet-and-graph.md",
+        "sha256": "527a88d55aeb1087060792ffcffe57df8dcd5fd1ef45d7c8e9752ebb93d4e6cc"
+      }
+    ],
+    "excluded_generated_files": []
+  },
+  {
+    "repository": "https://github.com/MAlazmii/Exceptional-Press.git",
+    "commit": "32e39f34892339574c2a60f5737bd0e0fdb9fd51",
+    "exercise": "exceptional-press",
+    "files": [
+      {
+        "source": "Book.java",
+        "destination": "exercises/exceptional-press/Book.java",
+        "sha256": "db4eaa60bcef8bb1e62c222467bfac16c5344601f7b5a978e61f5f95f28fe366"
+      },
+      {
+        "source": "CassetteException.java",
+        "destination": "exercises/exceptional-press/CassetteException.java",
+        "sha256": "7cd60d57e34179180d40d1bb7ef8c9077014a4b8a29ae1dc615a44e4be8a6507"
+      },
+      {
+        "source": "InvalidPasswordException.java",
+        "destination": "exercises/exceptional-press/InvalidPasswordException.java",
+        "sha256": "5734816a305e37e442601248ec586fa9f9db1b0f51d80af1b160947320fb41de"
+      },
+      {
+        "source": "Press.java",
+        "destination": "exercises/exceptional-press/Press.java",
+        "sha256": "887ed64ab86fe6e3ad233f6350871d6a63c453e541c9f2063a60e05331fbe926"
+      },
+      {
+        "source": "README.md",
+        "destination": "docs/original-readmes/exceptional-press.md",
+        "sha256": "726fe6eb5fd9eae13ee266c1f0a7210f1cfdc0c23d140db17f2b920069fb2d26"
+      },
+      {
+        "source": "VendingMachine.java",
+        "destination": "exercises/exceptional-press/VendingMachine.java",
+        "sha256": "c1ed46ee8bc4b5b06dbc491bbaf73e71f43bfa55626185b64a58e84d70e170cd"
+      }
+    ],
+    "excluded_generated_files": []
+  },
+  {
+    "repository": "https://github.com/MAlazmii/The-Caesar-Cipher.git",
+    "commit": "64d8f0366905e575d635c45cdbc1a4ecfa2120d7",
+    "exercise": "caesar-cipher",
+    "files": [
+      {
+        "source": "Brutus.java",
+        "destination": "exercises/caesar-cipher/Brutus.java",
+        "sha256": "e0604c2cf447796f54f14b8aa1283ad164a16e5ceb7994fc2dd6f7f7783b7505"
+      },
+      {
+        "source": "Caesar.java",
+        "destination": "exercises/caesar-cipher/Caesar.java",
+        "sha256": "21c15ca7a1966cfcd0458af96f4336731994c4c9bfbbd0e1bd7dfb9f11c1ee7f"
+      },
+      {
+        "source": "README.md",
+        "destination": "docs/original-readmes/caesar-cipher.md",
+        "sha256": "8b4b9c1cc71251f7f00c6a4eaf39d88d097777abeb56899817d84854e584e5c9"
+      }
+    ],
+    "excluded_generated_files": []
+  },
+  {
+    "repository": "https://github.com/MAlazmii/Le-chiffre-ind-chiffrable.git",
+    "commit": "492f84e51c4840653b0ab387180c51ad9c1d3e45",
+    "exercise": "substitution-ciphers",
+    "files": [
+      {
+        "source": "Caesar.java",
+        "destination": "exercises/substitution-ciphers/Caesar.java",
+        "sha256": "8822f798d186f30889aa7c56e901c82bac7124c3d05da03e60c92c26d28efcc3"
+      },
+      {
+        "source": "Cipher.java",
+        "destination": "exercises/substitution-ciphers/Cipher.java",
+        "sha256": "850c2ea0fd3a75597e471bd650d424c1686fdcfb60095d168847a13fbdc75cb4"
+      },
+      {
+        "source": "MonoAlphaSubstitution.java",
+        "destination": "exercises/substitution-ciphers/MonoAlphaSubstitution.java",
+        "sha256": "abaf3352310cf73286a4753e1efa1e44fcdeee8df169e30b186d4fce3a4d83c5"
+      },
+      {
+        "source": "README.md",
+        "destination": "docs/original-readmes/substitution-ciphers.md",
+        "sha256": "de09eb8c9166f0fcbf72ba860cd98b86b9def9b9b10d1832512965e2541899c0"
+      },
+      {
+        "source": "Substitution.java",
+        "destination": "exercises/substitution-ciphers/Substitution.java",
+        "sha256": "5150971f0cfab27a65272cff82ded89d4ac81b32ca9c90d40de7fe7475e903f1"
+      },
+      {
+        "source": "Vigenere.java",
+        "destination": "exercises/substitution-ciphers/Vigenere.java",
+        "sha256": "e0dfd3a9105eca843df65b0079ccf186986c44cb89aeb8bc9aa93afbcb0f44fc"
+      }
+    ],
+    "excluded_generated_files": []
+  },
+  {
+    "repository": "https://github.com/MAlazmii/HTML_Laps.git",
+    "commit": "6bf38ae430511e1e96fa724a9bb4ff612e787d15",
+    "exercise": "math-library",
+    "files": [
+      {
+        "source": "MathLibraryExample.java",
+        "destination": "exercises/math-library/MathLibraryExample.java",
+        "sha256": "83754f83fa7f478375d49f9e8da9856d164d02bb6a4324a63a51f8bc4d1c0c4a"
+      }
+    ],
+    "excluded_generated_files": []
+  }
+]
