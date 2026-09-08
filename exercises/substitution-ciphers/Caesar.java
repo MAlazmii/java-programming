@@ -9,7 +9,7 @@ public class Caesar extends MonoAlphaSubstitution {
 
 	public Caesar(int key) {
 		super();
-		shift = key;
+		shift = Math.floorMod(key, 26);
 	}
 
 	public Caesar() {
@@ -51,7 +51,7 @@ public class Caesar extends MonoAlphaSubstitution {
 				String encrypt_text = caesar_object.encrypt(TEXT);
 				System.out.println(encrypt_text);
 			} else if ("decrypt".equals(type) ) {
-				String decrypt_text = caesar_object.encrypt(TEXT);
+				String decrypt_text = caesar_object.decrypt(TEXT);
 				System.out.println(decrypt_text);
 			} else {
 				System.out.println("The first parameter must be \"encrypt\" or \"decrypt\"!\r\n"

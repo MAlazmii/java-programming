@@ -11,12 +11,15 @@ public class Vigenere extends Substitution {
 
 	public Vigenere() {
 		super();
-		KEY = "";
+		KEY = "A";
 	}
 
 	public Vigenere(String key) {
 		super();
-		this.KEY = key;
+		if (key == null || !key.matches("[A-Za-z]+")) {
+            throw new IllegalArgumentException("key must contain one or more ASCII letters");
+        }
+        this.KEY = key.toUpperCase(java.util.Locale.ROOT);
 	}
 
 	@Override
@@ -26,16 +29,10 @@ public class Vigenere extends Substitution {
 		char message[] = text.toCharArray();
 		int message_length = message.length;
 
-		int key_count = 0;
 		for (int i = 0; i < message_length; ++i) {
 
-			newShitKey = KEY.charAt(i) - 'A';
+			newShitKey = KEY.charAt(i % KEY.length()) - 'A';
 			answer += encrypt(message[i]);
-
-			if (key_count >= KEY.length()) {
-				key_count = 0;
-			}
-			key_count += 1;
 
 		}
 
@@ -48,17 +45,11 @@ public class Vigenere extends Substitution {
 		char Message[] = text.toCharArray();
 		int message_length = Message.length;
 
-		int key_count = 0;
 		for (int i = 0; i < message_length; ++i) {
-			
-			if (key_count >= KEY.length()) {
-				key_count = 0;
-			}
-			
-			newShitKey = KEY.charAt(i) - 'A';
+
+			newShitKey = KEY.charAt(i % KEY.length()) - 'A';
 			answer += decrypt(Message[i]);
-			key_count += 1;
-			
+
 
 		}
 
@@ -101,7 +92,7 @@ public class Vigenere extends Substitution {
 
 	@Override
 	public char decrypt(char character) {
-		
+
 		Caesar obj = new Caesar(newShitKey);
 		return obj.decrypt(character);
 
